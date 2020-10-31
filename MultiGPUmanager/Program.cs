@@ -27,10 +27,6 @@ namespace MultiGPUmanager
                 StartProcess("Assets/dc2.exe", "-primary"); //dc2.exe gives no output
                 StartProcess("Assets/WallpaperChanger.exe", "Assets/radeon.jpg");
             }
-
-
-            Console.Write("Press a key to exit");
-            Console.ReadKey();
         }
 
         public static String StartProcess(String FileName, String Arguments)
@@ -42,8 +38,6 @@ namespace MultiGPUmanager
             pProcess.StartInfo.RedirectStandardOutput = true;
             pProcess.Start();
             return pProcess.StandardOutput.ReadToEnd();
-
-
         }
     }
 }
