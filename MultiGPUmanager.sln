@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiGPUmanager", "MultiGPUmanager\MultiGPUmanager.csproj", "{FC56D091-4C5A-44D7-BA1A-A7D4C0F19EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC56D091-4C5A-44D7-BA1A-A7D4C0F19EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC56D091-4C5A-44D7-BA1A-A7D4C0F19EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC56D091-4C5A-44D7-BA1A-A7D4C0F19EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC56D091-4C5A-44D7-BA1A-A7D4C0F19EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7EAC8ED-2D8B-4952-96CC-760680CD63FD}
+	EndGlobalSection
+EndGlobal
